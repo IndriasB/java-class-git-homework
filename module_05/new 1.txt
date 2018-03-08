@@ -1,0 +1,11 @@
+import java.util.Scanner;
+import java.util.concurrent.ThreadLocalRandom;
+
+public class Project2 {
+	public static void main(String [] words){ "indrias", "Joseph", "Tanner", "Josh", "Juju", "Farshad"}
+		Scanner GuessHolder = new Scanner(System.in);
+		 ThreadLocalRandom.current().nextString();
+		System.out.println("Give me your best guess and press enter: ");
+		 GuessReader = GuessHolder.nextShort();
+	}
+}
