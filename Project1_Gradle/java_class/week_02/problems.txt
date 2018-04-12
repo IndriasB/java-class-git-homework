@@ -1,0 +1,37 @@
+-byte data type is an 8-bit signed two's complement integer.
+min value is -128 (-2^7), max value 127 (inclusive (2^7-1), and default value is 0
+a byte is four tumes smaller than an integer. 
+
+-short data type is a 16-bit signed two's complement integer.
+min value is -32,768 (-2^15), max value is 32,767 (inclusive)(2^15-1), and default value is 0.
+a short is 2 times smaller than an integer.
+
+-int data type is a 32-bit signed two's complement integer.
+minimum value is -2,147,483,648 (-2^31-1), max value is 2,147,483,647(inclusive)(2^31-1), and deagult is 0.
+integer is generally used as the defauly dat tyoe for integal values unless there is a concern about memory.
+
+-long data type is a 64-bit signed two's conplement integer.
+min value is -9,223,372,036,854,775,808(-2^63), max value is -9,223,372,036,854,775,808(inclusive)(2^63-1), and default is 0L.
+this type is used when a wider range than int is needed.
+
+-float data type is a single-precison 32-bit IEEE 754 floating point.
+float is mainly used to save memory in large arrays of floating point numbers. 
+default value is 0.0f
+float data type is never used for precise values such as currency.
+
+-double data type is a double-percision 64-bit IEEE 754 floating point 
+generally used as the default data type for decimal values.  
+double data tyoe should never be used for precise values such as currency.
+Defauly value is 0.0d
+
+-char data type is a single 16-bit Unicode character
+min value is '\u0000'(or 0)
+max value is '\uffff' (or 65,535 inclusive)
+char data type is used to store any character 
+
+-boolean data type repersents one bit of information
+there are only two possible values:true and flase 
+this data type is used for simple flags that track true/false 
+default value is false 
+
+-string data type is often implemented as an array dat sturcture of bytes (or words) that stores a squence of elements, typically characters, using some character encoding.

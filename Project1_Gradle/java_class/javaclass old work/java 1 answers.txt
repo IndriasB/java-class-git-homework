@@ -1,0 +1,72 @@
+1. true
+2. false
+3. true
+4. true
+5.false
+
+1.2bc
+2.5bc
+3.5bc
+4.bc5
+5.bc23
+
+1.error: <identifier> expected public static void (String[] args){
+2.error: illegal start of type public static void main([] args){
+3.error: cannot find file name
+4.error: cannot find symbol println("Hello,World!"); 
+5.error:<identifier> expected System.out.("Hello,World!");
+
+1.error:';' expected system.out.println("Hello, World!")
+2.error: ')' ecpected System.out.println(Hello,World!");
+3.error:unclosed string literal System.out.println("Hello, World!);
+4.error:'{' expected public class Hello
+5.error:';' expected public static void main (String[] args)
+6.error: reached end of file while parsing }
+7.error: reached end of file while parsing }
+
+1. No error
+2.error: cannot find symbol public static coid main (S^ring[] args){
+3.error: file name dosent match 
+4.error: cannot find symbol System.out.pintln("Hello, World");
+
+- String[] args is missing 
+
+-error:illegal character:\u00bb'^oublic class test {
+
+- "Hello, my name is Indrias"
+
+---C:\Users\18835\Desktop>java Operators
+is 9 greater than 5?}true
+is 9 less than 5?}false
+is 25 greater than 85?}false
+is 4 less than 5?}true
+is 9 greater than 5?}true
+
+
+  String name="World";
+  String first="first";
+
+  if (args.length>0) {
+     name= args[0]; 
+    }
+
+  if (args.length>0) {
+     name= args[0]; 
+    }
+   System.out.println("Hello,"+ name + "!");
+   System.out.println("Hello,"+ first + "!");
+  }
+}
+ --->java HelloWorldWithArguments "World with Arguments"
+Hello, World with Arguments!
+
+
+
+
+
+
+
+
+
+
+
